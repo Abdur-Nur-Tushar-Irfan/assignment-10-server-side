@@ -1,0 +1,28 @@
+[
+    {
+      "id": "01",
+      "name": "photoshop"
+    },
+  
+    {
+      "id": "02",
+      "name": "web-design"
+    },
+    {
+      "id": "03",
+      "name": "Fashion design"
+    },
+    {
+      "id": "04",
+      "name": "Programming in C"
+    },
+    {
+      "id": "05",
+      "name": "Programming In C++"
+    },
+    {
+      "id": "06",
+      "name": "Python"
+    }
+   
+  ]
