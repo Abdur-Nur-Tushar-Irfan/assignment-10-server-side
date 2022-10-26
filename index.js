@@ -16,7 +16,7 @@ app.get('/',(req,res)=>{
 
 });
 
-// this is for showing categories with id
+// only for category
 app.get("/category/:id", (req, res) => {
     const id = req.params.id;
     if (id == "07") {
