@@ -16,6 +16,17 @@ app.get('/',(req,res)=>{
 
 });
 
+// this is for showing categories with id
+app.get("/category/:id", (req, res) => {
+    const id = req.params.id;
+    if (id == "07") {
+      res.send(allCourses);
+    } else {
+      const selectCategory = allCourses.filter((n) => n.category_id === id);
+      res.send(selectCategory);
+    }
+  });
+
 app.get('/allCourses',(req,res)=>{
     res.send(allCourses)
 })
